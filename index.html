@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./assets/css/mediaqueries.css">
+    <title>Productivity site</title>
+</head>
+<body>
+    <!-- HEADER -->
+    <nav class="navbar container">
+        <div class="links-container">
+            <!-- 1 column -->
+            <div class="links-container__column .links-container__column--navigation">
+                <img src="./assets/images/Ellipse.svg" alt="">
+                <ul class="link-group link-group--navigation">
+                    <li class="link-group__link"><a href="#">Home</a></li>
+                    <li class="link-group__link"><a href="#">Blog</a></li>
+                    <li class="link-group__link"><a href="#">Features</a></li>
+                    <li class="link-group__link"><a href="#">Pricing</a></li>
+                    <li class="link-group__link"><a href="#">Documentation</a></li>
+                </ul>
+            </div>
+            
+            <!-- 2 column -->
+            <div class="links-container__column .links-container__column--socials">
+                <ul class="link-group link-group--socials">
+                    <li class="link-group__link"><a href="#"><img src="./assets/images/facebook logo.svg" alt="facebook link"></a></li>
+                    <li class="link-group__link"><a href="#"><img src="./assets/images/telegram logo.svg" alt="telegram link"></a></li>
+                    <li class="link-group__link"><a href="#"><img src="./assets/images/twitter logo.svg" alt="twitter link"></a></li>
+                    <li class="link-group__link"><a href="#"><img src="./assets/images/m logo.svg" alt="idk some M link"></a></li>
+                </ul>
+                <a href="#" class="button links-container__button button--light-blue">Get started</a>
+            </div>
+        </div>
+    </nav>
+    <!-- HEADER END -->
+
+    <!-- HERO -->
+    <section class="hero container">
+        <!-- CHART -->
+        <div class="chart">
+            <img src="./assets/images/chart.svg" alt="" class="chart__image">
+            <div class="chart-points">
+                <img src="./assets/images/chart-point.png" alt="" class="chart__point chart__point--first">
+                <img src="./assets/images/chart-point.png" alt="" class="chart__point chart__point--second">
+                <img src="./assets/images/chart-point.png" alt="" class="chart__point chart__point--third">
+                <img src="./assets/images/chart-point.png" alt="" class="chart__point chart__point--fourth">
+            </div>
+            <div class="chart__tooltip" style="opacity: 0;">
+                <img src="./assets/images/tooltip.svg" alt="">
+            </div>
+            <div class="chart__pips pips">
+                <div class="chart__pip pips__pip--active pips__pip"></div>
+                <div class="chart__pip pips__pip"></div>
+                <div class="chart__pip pips__pip"></div>
+                <div class="chart__pip pips__pip"></div>
+            </div>
+
+        </div>
+        <!-- BACKGROUND CLOUDS -->
+        <img src="./assets/images/clouds.svg" alt="" class="hero__background">
+        <!-- TEXT-CONTAINER -->
+        <div class="text-container hero__text-container">
+            <h6 class="text-container__subtitle">PLAN YOUR LIFE</h6>
+            <h1 class="text-container__title">Increase your <strong class="text-container__title--strong">productivity</strong></h1>
+            <p class="text-container__paragraph">Brute laoreet efficiendi id his, ea illum nonumes luptatum pro. Usu atqui laudem an, insolens gubergren similique est cu. Et vel modus congue vituperata.</p>
+            <a class="text-container__play-button" href="#">
+                <svg width="10" height="11" viewBox="0 0 10 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M9.23077 4.17675C10.2564 4.76486 10.2564 6.23514 9.23077 6.82325L2.30769 10.793C1.28205 11.3811 0 10.646 0 9.46976V1.53024C0 0.354015 1.28205 -0.381125 2.30769 0.206988L9.23077 4.17675Z" fill="#5E81FF"/>
+                </svg>
+            </a>
+        </div>
+    </section>
+    <!-- HERO END -->
+
+    <!-- SPONSORS -->
+    <section class="sponsors container">
+        <img src="./assets/images/bitbucket.svg" alt="" class="sponsors__image">
+        <img src="./assets/images/apple-watch.svg" alt="" class="sponsors__image">
+        <img src="./assets/images/facebook.svg" alt="" class="sponsors__image">
+        <img src="./assets/images/atlasian.svg" alt="" class="sponsors__image">
+        <img src="./assets/images/audi.svg" alt="" class="sponsors__image">
+    </section>
+    <!-- SPONSORS END -->
+
+    <!-- PLAN AND MANAGE -->
+    <section class="plan container">
+        <!-- COLUMN 1 -->
+        <div class="plan__column plan__column--first">
+            <div class="text-container plan__text-container">
+                <h6 class="text-container__subtitle plan__subtitle">DESKTOP AND MOBILE APP</h6>
+                <h2 class="text-container__title text-container__title--sm plan__title"><strong class="text-container__title--strong">Plan</strong> and <strong class="text-container__title--strong">manage</strong></h2>
+                <p class="text-container__paragraph plan__paragraph">Brute laoreet efficiendi id his, ea illum nonumes luptatum pro. Usu atqui laudem an, insolens gubergren similique est cu. Et vel modus congue vituperata. Solum patrioque no sea. Mea ex malis mollis oporteat. Eum an expetenda consequat.</p>
+                <div class="button-group">
+                    <a href="#" class="button button-group__button button--blue">View video <img src="./assets/images/button polygon.svg" alt="" class="button__decoration"></a>
+                    <a href="#" class="button-group__button button--gray button-group__button--gray button">See features</a>
+                </div>
+            </div>
+        </div>
+        <!-- COLUMN 2 -->
+        <div class="plan__column plan__column--second">
+            <img src="./assets/images/plan and manage illustration.png" alt="" class="plan__image">
+        </div>
+        
+    </section>
+    <!-- PLAN AND MANAGE END -->
+
+    <!-- ABOUT -->
+    <section class="about container">
+        <!-- TEXT-CONTAINER -->
+        <div class="text-container about__text-container">
+            <h6 class="text-container__subtitle about__subtitle">about us</h6>
+            <h1 class="text-container__title about__title text-container__title--extra-sm"><strong class="text-container__title--strong">Read about our app</strong></h1>
+        </div>
+        <!-- CARD-CONTAINER -->
+        <div class="card-container">
+            <div class="card">
+                <img src="./assets/images/about-card-icon-1.svg" alt="" class="card__icon">
+                <h5 class="card__title">Overview</h5>
+                <p class="card__paragraph">Brute laoreet efficiendi id his, ea illum nonumes luptatum pro.</p>
+            </div>
+            <div class="card">
+                <img src="./assets/images/about-card-icon-2.svg" alt="" class="card__icon">
+                <h5 class="card__title">Files</h5>
+                <p class="card__paragraph">No vim nulla vitae intellegat. Ei enim error ius, solet atomorum conceptam ex has.</p>
+            </div>
+            <div class="card">
+                <img src="./assets/images/about-card-icon-3.svg" alt="" class="card__icon">
+                <h5 class="card__title">Meating chats</h5>
+                <p class="card__paragraph">Vim ne tacimates neglegentur. Erat diceret omittam at est.</p>
+            </div>
+            <div class="card">
+                <img src="./assets/images/about-card-icon-4.svg" alt="" class="card__icon">
+                <h5 class="card__title">Save events</h5>
+                <p class="card__paragraph">Nisl idque mel ea, nominati voluptatum.</p>
+            </div>
+        </div>
+        <!-- BUTTON-GROUP -->
+        <div class="button-group">
+            <a href="#" class="button-group__button button button--light-red">Read more</a>
+            <span class="button-group__text-with-decorations">OR</span>
+            <a href="#" class="button-group__button button button--light-blue">Get started</a>
+        </div>
+        <!-- BACKGROUND-IMAGE -->
+        <img src="./assets/images/about-background.svg" alt="" class="about__background-image">
+    </section>
+    <!-- ABOUT END -->
+
+    <!-- RESULTS -->
+    <section class="results container">
+        <!-- COLUMN LEFT -->
+        <div class="results__column results__column--left">
+            <img src="./assets/images/results-icon-1.svg" alt="" class="column__icon">
+            <h3 class="column__value">89%</h3>
+            <p class="column__info">Customers who have increased their productivity</p>
+        </div>
+
+        <!-- COLUMN RIGHT -->
+        <div class="results__column results__column--right">
+            <img src="./assets/images/results-icon-2.svg" alt="" class="column__icon">
+            <h3 class="column__value">3123</h3>
+            <p class="column__info">Users who have used our application</p>
+        </div>
+    </section>
+    <!-- RESULTS END -->
+
+    <!-- RESOURCES -->
+    <section class="resources container">
+        <!-- TEXT-CONTAINER -->
+        <div class="text-container resources__text-container">
+            <h6 class="text-container__subtitle resources__subtitle">Our resources</h6>
+            <h1 class="text-container__title resources__title" ><strong class="text-container__title--strong"> Start reading our blog</strong></h1>
+        </div>
+
+        <!-- SLIDER -->
+        <div class="slider-container resources__slider-container">
+            <!-- LEFT BUTTON-->
+            <button class="slider__left-button resources__left-button arrow-button arrow-button--left"><img src="./assets/images/arrow.svg" alt=""></button>
+
+            <div class="slider resources__slider">
+                <div class="slider__slider-list resources__slider-list">
+                    <div class="slider__slider-track resources__slider-track">
+                        <!-- SLIDE -->
+                        <div class="slide resources__slide">
+                            <div class="slide__grid">
+                                <a href="#" draggable="false" class="slide__grid-item slide__grid-item--first "><img draggable="false" class="grid-item__image" src="./assets/images/slide img.png" alt=""></a>
+                                <a href="#" draggable="false" class="slide__grid-item slide__grid-item--second"><img draggable="false" class="grid-item__image" src="./assets/images/slide img 2.png" alt=""></a>
+                                <a href="#" draggable="false" class="slide__grid-item slide__grid-item--third"><img draggable="false" class="grid-item__image" src="./assets/images/slide img 3.png" alt=""></a>
+                            </div>
+                            
+                            <div class="text-container text-container--slide">
+                                <h2 class="text-container__title text-container__title--sm text-container__title--resources">How to start planning</h2>
+                                <p class="text-container__paragraph text-container__paragraph--resources">Quidam vocibus eum ne, erat consectetuer voluptatibus ut nam. Eu usu vidit tractatos, vero tractatos ius an, in mel diceret persecuti. Natum petentium principes mei ea. Tota everti periculis vis ei, quas tibique pro at, eos ut decore ...</p>
+                                <div class="slide__button-group button-group text-container__button-group">
+                                    <a href="#" class="button button--light-blue text-container__button">Read now</a>
+                                    <a href="#" class="button button--transparent-bg text-container__button">Add to your bookmarks</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- SLIDE -->
+                        <div class="slide resources__slide">
+                            <div class="slide__grid">
+                                <a href="#" draggable="false" class="slide__grid-item slide__grid-item--first "><img draggable="false" class="grid-item__image" src="./assets/images/slide img.png" alt=""></a>
+                                <a href="#" draggable="false" class="slide__grid-item slide__grid-item--second"><img draggable="false" class="grid-item__image" src="./assets/images/slide img 2.png" alt=""></a>
+                                <a href="#" draggable="false" class="slide__grid-item slide__grid-item--third"><img draggable="false" class="grid-item__image" src="./assets/images/slide img 3.png" alt=""></a>
+                            </div>
+                            
+                            <div class="text-container text-container--slide">
+                                <h2 class="text-container__title text-container__title--sm text-container__title--resources">How to start planning</h2>
+                                <p class="text-container__paragraph text-container__paragraph--resources">Quidam vocibus eum ne, erat consectetuer voluptatibus ut nam. Eu usu vidit tractatos, vero tractatos ius an, in mel diceret persecuti. Natum petentium principes mei ea. Tota everti periculis vis ei, quas tibique pro at, eos ut decore ...</p>
+                                <div class="slide__button-group button-group text-container__button-group">
+                                    <a href="#" class="button button--light-blue text-container__button">Read now</a>
+                                    <a href="#" class="button button--transparent-bg text-container__button">Add to your bookmarks</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- SLIDE -->
+                        <div class="slide resources__slide">
+                            <div class="slide__grid">
+                                <a href="#" draggable="false" class="slide__grid-item slide__grid-item--first "><img draggable="false" class="grid-item__image" src="./assets/images/slide img.png" alt=""></a>
+                                <a href="#" draggable="false" class="slide__grid-item slide__grid-item--second"><img draggable="false" class="grid-item__image" src="./assets/images/slide img 2.png" alt=""></a>
+                                <a href="#" draggable="false" class="slide__grid-item slide__grid-item--third"><img draggable="false" class="grid-item__image" src="./assets/images/slide img 3.png" alt=""></a>
+                            </div>
+
+                            <div class="text-container text-container--slide">
+                                <h2 class="text-container__title text-container__title--sm text-container__title--resources">How to start planning</h2>
+                                <p class="text-container__paragraph text-container__paragraph--resources">Quidam vocibus eum ne, erat consectetuer voluptatibus ut nam. Eu usu vidit tractatos, vero tractatos ius an, in mel diceret persecuti. Natum petentium principes mei ea. Tota everti periculis vis ei, quas tibique pro at, eos ut decore ...</p>
+                                <div class="slide__button-group button-group text-container__button-group">
+                                    <a href="#" class="button button--light-blue text-container__button">Read now</a>
+                                    <a href="#" class="button button--transparent-bg text-container__button">Add to your bookmarks</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- RIGHT BUTTON-->
+            <button class="slider__right-button arrow-button arrow-button--right resources__right-button "><img src="./assets/images/arrow.svg" alt=""></button>
+            <!-- PIPS CONTAINER -->
+            <div class="resources__pips slider__pips pips">
+                <div class="slider__pip resources__pip pips__pip--active pips__pip"></div>
+                <div class="slider__pip resources__pip pips__pip"></div>
+                <div class="slider__pip resources__pip pips__pip"></div>
+            </div>
+        </div>
+    </section>
+    <!-- RESOURCES END -->
+
+
+    <!-- TESTIMONIALS -->
+    <section class="testimonials container">
+        <!-- TEXT-CONTAINER -->
+        <div class="text-container testimonials__text-container">
+            <h6 class="text-container__subtitle testimonials__subtitle">Testimonials</h6>
+            <h2 class="text-container__title--sm text-container__title testimonials__title"><strong class="text-container__title--strong">Customers's quotes</strong></h2>
+            <p class="text-container__paragraph testimonials__paragraph">Brute laoreet efficiendi id his, ea illum nonumes luptatum pro. Usu atqui laudem an.</p>
+        </div>
+
+        <!-- SLIDER -->
+        <div class="slider-container testimonials__slider-container">
+
+            <div class="slider testimonials__slider">
+                <div class="slider__slider-list testimonials__slider-list">
+                    <div class="slider__slider-track testimonials__slider-track">
+
+                        <!-- SLIDE -->
+                        <div class="slide testimonials__slide">
+                            <div class="text-container text-container--testimonials-slide">
+                                <div class="text-container__paragraph">
+                                    Quidam vocibus eum ne, erat consectetuer voluptatibus ut nam. Eu usu vidit tractatos, vero tractatos ius an, in mel diceret persecuti.
+                                </div>
+                            </div>
+                            <!-- <img src="./assets/images/testimonials quote author.svg" class="slide__quote-author testimonials__quote-author"> -->
+                            <img src="./assets/images/testimonials quote author.png" class="slide__quote-author testimonials__quote-author">
+                            
+                        </div>
+                        <!-- SLIDE -->
+                        <div class="slide testimonials__slide">
+                            <div class="text-container text-container--testimonials-slide">
+                                <div class="text-container__paragraph">
+                                    Quidam vocibus eum ne, erat consectetuer voluptatibus ut nam. Eu usu vidit tractatos, vero tractatos ius an, in mel diceret persecuti.
+                                </div>
+                            </div>
+                            <!-- <img src="./assets/images/testimonials quote author.svg" class="slide__quote-author testimonials__quote-author"> -->
+                            <img src="./assets/images/testimonials quote author.png" class="slide__quote-author testimonials__quote-author">
+                            
+                        </div>
+                        <!-- SLIDE -->
+                        <div class="slide testimonials__slide">
+                            <div class="text-container text-container--testimonials-slide">
+                                <div class="text-container__paragraph">
+                                    Quidam vocibus eum ne, erat consectetuer voluptatibus ut nam. Eu usu vidit tractatos, vero tractatos ius an, in mel diceret persecuti.
+                                </div>
+                            </div>
+                            <!-- <img src="./assets/images/testimonials quote author.svg" class="slide__quote-author testimonials__quote-author"> -->
+                            <img src="./assets/images/testimonials quote author.png" class="slide__quote-author testimonials__quote-author">
+                            
+                        </div>
+                        <!-- SLIDE -->
+                        <div class="slide testimonials__slide">
+                            <div class="text-container text-container--testimonials-slide">
+                                <div class="text-container__paragraph">
+                                    Quidam vocibus eum ne, erat consectetuer voluptatibus ut nam. Eu usu vidit tractatos, vero tractatos ius an, in mel diceret persecuti.
+                                </div>
+                            </div>
+                            <!-- <img src="./assets/images/testimonials quote author.svg" class="slide__quote-author testimonials__quote-author"> -->
+                            <img src="./assets/images/testimonials quote author.png" class="slide__quote-author testimonials__quote-author">
+                            
+                        </div>
+                        <!-- SLIDE -->
+                        <div class="slide testimonials__slide">
+                            <div class="text-container text-container--testimonials-slide">
+                                <div class="text-container__paragraph">
+                                    Quidam vocibus eum ne, erat consectetuer voluptatibus ut nam. Eu usu vidit tractatos, vero tractatos ius an, in mel diceret persecuti.
+                                </div>
+                            </div>
+                            <!-- <img src="./assets/images/testimonials quote author.svg" class="slide__quote-author testimonials__quote-author"> -->
+                            <img src="./assets/images/testimonials quote author.png" class="slide__quote-author testimonials__quote-author">
+                            
+                        </div>
+                        <!-- SLIDE -->
+                        <div class="slide testimonials__slide">
+                            <div class="text-container text-container--testimonials-slide">
+                                <div class="text-container__paragraph">
+                                    Quidam vocibus eum ne, erat consectetuer voluptatibus ut nam. Eu usu vidit tractatos, vero tractatos ius an, in mel diceret persecuti.
+                                </div>
+                            </div>
+                            <!-- <img src="./assets/images/testimonials quote author.svg" class="slide__quote-author testimonials__quote-author"> -->
+                            <img src="./assets/images/testimonials quote author.png" class="slide__quote-author testimonials__quote-author">
+                            
+                        </div>
+                        <!-- SLIDE -->
+                        <div class="slide testimonials__slide">
+                            <div class="text-container text-container--testimonials-slide">
+                                <div class="text-container__paragraph">
+                                    Quidam vocibus eum ne, erat consectetuer voluptatibus ut nam. Eu usu vidit tractatos, vero tractatos ius an, in mel diceret persecuti.
+                                </div>
+                            </div>
+                            <!-- <img src="./assets/images/testimonials quote author.svg" class="slide__quote-author testimonials__quote-author"> -->
+                            <img src="./assets/images/testimonials quote author.png" class="slide__quote-author testimonials__quote-author">
+                            
+                        </div>
+                        <!-- SLIDE -->
+                        <div class="slide testimonials__slide">
+                            <div class="text-container text-container--testimonials-slide">
+                                <div class="text-container__paragraph">
+                                    Quidam vocibus eum ne, erat consectetuer voluptatibus ut nam. Eu usu vidit tractatos, vero tractatos ius an, in mel diceret persecuti.
+                                </div>
+                            </div>
+                            <!-- <img src="./assets/images/testimonials quote author.svg" class="slide__quote-author testimonials__quote-author"> -->
+                            <img src="./assets/images/testimonials quote author.png" class="slide__quote-author testimonials__quote-author">
+                            
+                        </div>
+                        <!-- SLIDE -->
+                        <div class="slide testimonials__slide">
+                            <div class="text-container text-container--testimonials-slide">
+                                <div class="text-container__paragraph">
+                                    Quidam vocibus eum ne, erat consectetuer voluptatibus ut nam. Eu usu vidit tractatos, vero tractatos ius an, in mel diceret persecuti.
+                                </div>
+                            </div>
+                            <!-- <img src="./assets/images/testimonials quote author.svg" class="slide__quote-author testimonials__quote-author"> -->
+                            <img src="./assets/images/testimonials quote author.png" class="slide__quote-author testimonials__quote-author">
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- PIPS CONTAINER -->
+            <div class="testimonials__pips slider__pips pips">
+                <div class="slider__pip testimonials__pip pips__pip--active pips__pip"></div>
+                <div class="slider__pip testimonials__pip pips__pip"></div>
+                <div class="slider__pip testimonials__pip pips__pip"></div>
+                <div class="slider__pip testimonials__pip pips__pip"></div>
+                <div class="slider__pip testimonials__pip pips__pip"></div>
+                <div class="slider__pip testimonials__pip pips__pip"></div>
+                <div class="slider__pip testimonials__pip pips__pip"></div>
+                <div class="slider__pip testimonials__pip pips__pip"></div>
+                <div class="slider__pip testimonials__pip pips__pip"></div>
+            </div>
+        </div>
+    </section>
+    <!-- TESTIMONIALS END -->
+
+    <!-- FAQ -->
+    <section class="faq container">
+        <!-- TEXT-CONTAINER -->
+        <div class="text-container faq__text-container">
+            <h6 class="text-container__subtitle faq__subtitle">customer help</h6>
+            <h1 class="text-container__title text-container__title--extra-sm faq__title"><strong class="text-container__title--strong">Frequently asked questions</strong></h1>
+        </div>
+        <div class="accord-container faq__accord-container">
+            <!-- ACCORD -->
+            <div class="accord faq__accord">
+                <button class="accord__button faq__accord-button">
+                    <svg class="accord__button-arrow" width="18" height="11" viewBox="0 0 18 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M2 2L9 9L16 2" stroke="#8E96B7" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    Reque insolens in vel?
+                </button>
+                <div class="accord__content faq__accord-content">
+                    <div class="accord__content-container faq__accord-content-container">
+
+                        <div class="text-container accord__text-container">
+                            <p class="accord__paragraph text-container__paragraph">Quidam vocibus eum ne, erat consectetuer voluptatibus ut nam. Eu usu vidit tractatos, vero tractatos ius an, in mel diceret persecuti.</p>
+                        </div>
+                        <a href="#" class="button button--gray accord-content__button">Go to documentation</a>
+                    </div>
+                </div>
+            </div>
+            <!-- ACCORD -->
+            <div class="accord faq__accord">
+                <button class="accord__button faq__accord-button">
+                    <svg class="accord__button-arrow" width="18" height="11" viewBox="0 0 18 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M2 2L9 9L16 2" stroke="#8E96B7" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    Vis rebum error graecis ea, id sit postea accusamus?
+                </button>
+                <div class="accord__content faq__accord-content">
+                    <div class="accord__content-container faq__accord-content-container">
+
+                        <div class="text-container accord__text-container">
+                            <p class="accord__paragraph text-container__paragraph">Quidam vocibus eum ne, erat consectetuer voluptatibus ut nam. Eu usu vidit tractatos, vero tractatos ius an, in mel diceret persecuti.</p>
+                        </div>
+                        <a href="#" class="button button--gray accord-content__button">Go to documentation</a>
+                    </div>
+                </div>
+            </div>
+            <!-- ACCORD -->
+           <div class="accord faq__accord">
+                <button class="accord__button faq__accord-button">
+                    <svg class="accord__button-arrow" width="18" height="11" viewBox="0 0 18 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M2 2L9 9L16 2" stroke="#8E96B7" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    Lorem repudiandae ne nec?
+                </button>
+                <div class="accord__content faq__accord-content">
+                    <div class="accord__content-container faq__accord-content-container">
+
+                        <div class="text-container accord__text-container">
+                            <p class="accord__paragraph text-container__paragraph">Quidam vocibus eum ne, erat consectetuer voluptatibus ut nam. Eu usu vidit tractatos, vero tractatos ius an, in mel diceret persecuti.</p>
+                        </div>
+                        <a href="#" class="button button--gray accord-content__button">Go to documentation</a>
+                    </div>
+                </div>
+            </div>
+            <!-- ACCORD -->
+           <div class="accord faq__accord">
+                <button class="accord__button faq__accord-button">
+                    <svg class="accord__button-arrow" width="18" height="11" viewBox="0 0 18 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M2 2L9 9L16 2" stroke="#8E96B7" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    Ad dicit numquam vel. Et eos iudico feugait percipitur?
+                </button>
+                <div class="accord__content faq__accord-content">
+                    <div class="accord__content-container faq__accord-content-container">
+
+                        <div class="text-container accord__text-container">
+                            <p class="accord__paragraph text-container__paragraph">Quidam vocibus eum ne, erat consectetuer voluptatibus ut nam. Eu usu vidit tractatos, vero tractatos ius an, in mel diceret persecuti.</p>
+                        </div>
+                        <a href="#" class="button button--gray accord-content__button">Go to documentation</a>
+                    </div>
+                </div>
+            </div>
+            <!-- ACCORD -->
+           <div class="accord faq__accord">
+                <button class="accord__button faq__accord-button">
+                    <svg class="accord__button-arrow" width="18" height="11" viewBox="0 0 18 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M2 2L9 9L16 2" stroke="#8E96B7" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    Sea no dico percipitur. Fierent constituam definitiones id eum?
+                </button>
+                <div class="accord__content faq__accord-content">
+                    <div class="accord__content-container faq__accord-content-container">
+
+                        <div class="text-container accord__text-container">
+                            <p class="accord__paragraph text-container__paragraph">Quidam vocibus eum ne, erat consectetuer voluptatibus ut nam. Eu usu vidit tractatos, vero tractatos ius an, in mel diceret persecuti.</p>
+                        </div>
+                        <a href="#" class="button button--gray accord-content__button">Go to documentation</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- FAQ END -->
+
+    <!-- GET STARTED -->
+    <section class="container get-started">
+        <!-- BACKGROUND IMAGE -->
+        <img src="./assets/images/get started clouds.png" alt="" class="get-started__bg-image">
+
+        <!-- TEXT-CONTAINER -->
+        <div class="text-container get-started__text-container">
+            <h6 class="text-container__subtitle get-started__subtitle">plan your life</h6>
+            <h1 class="text-container__title get-started__title">Get <strong class="text-container__title--strong">started</strong> now</h1>
+            <p class="text-container__paragraph get-started__paragraph">Brute laoreet efficiendi id his, ea illum nonumes luptatum pro. Usu atqui laudem an, insolens gubergren similique est cu. Et vel modus congue vituperata.</p>
+
+            <!-- BUTTON-GROUP -->
+            <div class="button-group text-container__button-group get-started__button-group">
+                <a href="#" class="button button-group__button button--white text-container__button get-started__button">View pricing</a>
+                <a href="#" class="button-group__button button--transparent-light-blue button-group__button button text-container__button get-started__button">Read documentation</a>
+            </div>
+
+        </div>
+
+    </section>
+    <!-- GET STARTED END -->
+
+    <!-- SIGN UP -->
+    <section class="sign-up container">
+        <!-- TEXT-CONTAINER -->
+        <div class="text-container sign-up__text-container">
+            <h5 class="text-container__bold-title sign-up__bold-title">Sign up for newsletter</h5>
+            <p class="text-container__paragraph">Cu qui soleat partiendo urbanitas. Eum aperiri indoctum eu, homero alterum.</p>
+        </div>
+
+        <!-- FORM -->
+        <form action="./assets/php/form.php" method="GET" class="newslatter-form sign-up__newsletter-form">
+            <input type="email" name="email" id="email" class="input newslatter-form__input sign-up__input" placeholder="Email address">
+            <button type="submit" class="button newslatter-form__button sign-up__button">Save me</button>
+        </form>
+    </section>
+    <!-- SIGN UP END -->
+    
+    <footer class="footer container">
+        <!-- LINKS-CONTAINER -->
+        <div class="links-container">
+            <!-- 1 column -->
+            <div class="links-container__column .links-container__column--navigation">
+                <img src="./assets/images/Ellipse.svg" alt="">
+                <ul class="link-group link-group--navigation">
+                    <li class="link-group__link"><a href="#">Home</a></li>
+                    <li class="link-group__link"><a href="#">Blog</a></li>
+                    <li class="link-group__link"><a href="#">Features</a></li>
+                    <li class="link-group__link"><a href="#">Pricing</a></li>
+                    <li class="link-group__link"><a href="#">Documentation</a></li>
+                </ul>
+            </div>
+            
+            <!-- 2 column -->
+            <div class="links-container__column .links-container__column--socials">
+                <ul class="link-group link-group--socials">
+                    <li class="link-group__link"><a href="#"><img src="./assets/images/facebook logo.svg" alt="facebook link"></a></li>
+                    <li class="link-group__link"><a href="#"><img src="./assets/images/telegram logo.svg" alt="telegram link"></a></li>
+                    <li class="link-group__link"><a href="#"><img src="./assets/images/twitter logo.svg" alt="twitter link"></a></li>
+                    <li class="link-group__link"><a href="#"><img src="./assets/images/m logo.svg" alt="idk some M link"></a></li>
+                </ul>
+                <a href="#" class="button links-container__button button--light-blue">Get started</a>
+            </div>
+        </div>
+
+        <!-- COPYRIGHT -->
+        <p class="copyright footer__copyright">Copyright © 2018 by Random site</p>
+    </footer>
+
+    <script src="./assets/js/accord.js" type="module"></script>
+    <script src="./assets/js/slider.js" type="module"></script>
+    <script src="./assets/js/gap-slider.js" type="module"></script>
+    <script src="./assets/js/hero-chart.js" type="module" defer></script>
+    <script src="script.js"></script>
+</body>
+</html>
